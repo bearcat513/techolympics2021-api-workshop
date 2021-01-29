@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_275551_trivia_ga.Trivia_Game_Utils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Trivia_Game_Utils</name>
+        <script><![CDATA[var Trivia_Game_Utils = Class.create();
+Trivia_Game_Utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getToken: function(){
+		var response = '';     // RAW API response
+		var responseBody = ''; // Body of the response from API
+		var httpStatus = '';   // 200 / 401 / etc...
+		var resourceTypeNames = []; //Pretty Name passed to catalog item var
+		//var token = this.getToken(); //Token
+		var parser = '';       // JSON Parser
+		var parsedData = '';   // Response from API
+		var client ='';        // RestMessage
+		//var json = new JSON(); // Parser
+		//var question = gs.getProperty('RBACRestoreAccessQuestion');
+		var array = [];
+gs.log('Trivia game response script include called!');
+
+		try {
+			client = new sn_ws.RESTMessageV2();
+			client.setHttpMethod('GET');
+			client.setEndpoint('https://opentdb.com/api_token.php?command=request');  
+			client.setRequestHeader('Content-Type', 'application/json');
+
+
+			response = client.execute();
+			gs.log('Trivia game response = ' + response);
+
+			responseBody = response.getBody(); 
+			httpStatus = response.getStatusCode();
+			parser = new JSONParser();
+			parsedData = parser.parse(responseBody); 
+
+			//gs.log('MMMSpoon ' + responseBody + ' ' + JSON.stringify(parsedData.sort(this.compare)));
+			parsedData = JSON.stringify(parsedData);
+			return parsedData;
+		}
+		catch (ex) {
+			gs.info('Exception: (' + ex + '), ' + ex.getMessage()); 
+		}
+	},
+
+    type: 'Trivia_Game_Utils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 02:35:33</sys_created_on>
+        <sys_id>a984bec02fca20103662309cf699b640</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Trivia_Game_Utils</sys_name>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name>sys_script_include_a984bec02fca20103662309cf699b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 03:05:14</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trivia Question Choices" max_length="40" name="x_275551_trivia_ga_trivia_question_choices" sizeclass="26" type="collection">
+        <element label="Choice" max_length="1000" name="choice" type="string"/>
+        <element label="Correct" max_length="40" name="correct" type="boolean"/>
+        <element label="Trivia question" max_length="32" name="trivia_question" reference="x_275551_trivia_ga_trivia_questions" type="reference"/>
+        <index name="index">
+            <element name="trivia_question"/>
+        </index>
+    </element>
+</database>
