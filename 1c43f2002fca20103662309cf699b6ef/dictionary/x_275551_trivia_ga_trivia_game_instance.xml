@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trivia Game Instance" max_length="40" name="x_275551_trivia_ga_trivia_game_instance" sizeclass="0" type="collection"/>
+    <element label="Trivia Game Instance" max_length="40" name="x_275551_trivia_ga_trivia_game_instance" sizeclass="2" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Answer" max_length="1000" name="answer" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Choices" max_length="4000" name="choices" reference="x_275551_trivia_ga_trivia_question_choices" reference_qual="trivia_questionSAMEAStrivia_question^EQ" reference_qual_condition="trivia_questionSAMEAStrivia_question^EQ" type="glide_list"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Correct" max_length="40" name="correct" type="boolean"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Trivia Game" max_length="32" name="trivia_game" reference="x_275551_trivia_ga_trivia_game" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Trivia question" max_length="32" name="trivia_question" reference="x_275551_trivia_ga_trivia_questions" type="reference"/>
+        <index name="index">
+            <element name="trivia_question"/>
+        </index>
+        <index name="index2">
+            <element name="trivia_game"/>
+        </index>
+        <index name="index3">
+            <element name="player"/>
+        </index>
+    </element>
 </database>

@@ -11,13 +11,13 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_trivia_question_set</internal_name>
-        <label_cache>[{"name":"3d0e6934-f07f-4cb1-89e8-2fe33bb7e91b.item","label":"5➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.question_count","label":"Trigger➛Trivia Game Record➛Question count","reference":"","reference_display":"Question count","type":"integer","base_type":"integer","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_count"},{"name":"Updated_1.current.difficulty","label":"Trigger➛Trivia Game Record➛Difficulty","reference":"","reference_display":"Difficulty","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"difficulty"},{"name":"Updated_1.current.category","label":"Trigger➛Trivia Game Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"category"},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD8bd9f6587dc22010c162fe12f6732ddd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"16515405-9de1-40ff-8f2b-b348f3eef4c0.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD9762f250dec22010ca70ae5ecba0a9fd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results","label":"1➛Trivia questions➛results","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item","label":"2➛results_object","reference_display":"results_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.record","label":"3➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.table_name","label":"3➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Trivia Game Record","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"reference","base_type":"reference","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.question","label":"2➛results_object➛question","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.type","label":"2➛results_object➛type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.correct_answer","label":"2➛results_object➛correct_answer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.incorrect_answers","label":"2➛results_object➛incorrect_answers","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{}},{"name":"Updated_1.current.question_type","label":"Trigger➛Trivia Game Record➛Question type","reference":"","reference_display":"Question type","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_type"},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0.item","label":"6➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>3263cfe02f0220103662309cf699b663</latest_snapshot>
+        <label_cache>[{"name":"5cc452ca-b2d7-48ee-8636-92b4f445a313.table_name","label":"12➛Trivia Game Instance Table","reference":"x_275551_trivia_ga_trivia_game_instance","reference_display":"Trivia Game Instance","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5cc452ca-b2d7-48ee-8636-92b4f445a313.record","label":"12➛Trivia Game Instance Record","reference":"x_275551_trivia_ga_trivia_game_instance","reference_display":"Trivia Game Instance","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item","label":"11➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players","label":"10➛Trivia Questions Record➛Trivia game➛Players","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"players"},{"name":"a0f04703-2d24-413d-82d7-8dba8b1160aa.item","label":"10➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.sys_id","label":"Trigger➛Trivia Game Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"sys_id"},{"name":"Updated_1.table_name","label":"Trigger➛Trivia Game Table","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Count","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Table","label":"9➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records","label":"9➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"198e2981-a17d-44f4-9884-c02c91b591be.scheduled_end_date_time","label":"8➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"198e2981-a17d-44f4-9884-c02c91b591be.total_duration","label":"8➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d0e6934-f07f-4cb1-89e8-2fe33bb7e91b.item","label":"5➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.question_count","label":"Trigger➛Trivia Game Record➛Question count","reference":"","reference_display":"Question count","type":"integer","base_type":"integer","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_count"},{"name":"Updated_1.current.difficulty","label":"Trigger➛Trivia Game Record➛Difficulty","reference":"","reference_display":"Difficulty","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"difficulty"},{"name":"Updated_1.current.category","label":"Trigger➛Trivia Game Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"category"},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD8bd9f6587dc22010c162fe12f6732ddd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"16515405-9de1-40ff-8f2b-b348f3eef4c0.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD9762f250dec22010ca70ae5ecba0a9fd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results","label":"1➛Trivia questions➛results","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item","label":"2➛results_object","reference_display":"results_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.record","label":"3➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.table_name","label":"3➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Trivia Game Record","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"reference","base_type":"reference","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.question","label":"2➛results_object➛question","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.type","label":"2➛results_object➛type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.correct_answer","label":"2➛results_object➛correct_answer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.incorrect_answers","label":"2➛results_object➛incorrect_answers","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{}},{"name":"Updated_1.current.question_type","label":"Trigger➛Trivia Game Record➛Question type","reference":"","reference_display":"Question type","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_type"},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0.item","label":"6➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>6fc8cc892f0660103662309cf699b640</latest_snapshot>
         <master_snapshot>07c6fe542fc220103662309cf699b62d</master_snapshot>
         <name>Create trivia question set</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>688e83902f4620103662309cf699b69b</remote_trigger_id>
+        <remote_trigger_id>209808892f0660103662309cf699b66d</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -29,7 +29,7 @@
         <sys_created_on>2021-01-27 20:29:42</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>977aea942f8220103662309cf699b6b4</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Create trivia question set</sys_name>
         <sys_overrides/>
         <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name>sys_hub_flow_977aea942f8220103662309cf699b6b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:05</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=977aea942f8220103662309cf699b6b4"/>
@@ -57,9 +57,9 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 23:07:03</sys_created_on>
+        <sys_created_on>2021-01-29 16:37:42</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_id>688e83902f4620103662309cf699b69b</sys_id>
+        <sys_id>209808892f0660103662309cf699b66d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
@@ -68,35 +68,35 @@
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:03</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:42</sys_updated_on>
         <table>x_275551_trivia_ga_trivia_game</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"248e83902f4620103662309cf699b69c","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"2c9808892f0660103662309cf699b66d","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>977aea942f8220103662309cf699b6b4</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 23:07:03</sys_created_on>
-        <sys_id>248e83902f4620103662309cf699b69c</sys_id>
+        <sys_created_on>2021-01-29 16:37:42</sys_created_on>
+        <sys_id>2c9808892f0660103662309cf699b66d</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:03</sys_updated_on>
-        <trigger display_value="">688e83902f4620103662309cf699b69b</trigger>
+        <sys_updated_on>2021-01-29 16:37:42</sys_updated_on>
+        <trigger display_value="">209808892f0660103662309cf699b66d</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>248e83902f4620103662309cf699b69c</document_id>
+        <document_id>2c9808892f0660103662309cf699b66d</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 23:07:03</sys_created_on>
-        <sys_id>a88e83902f4620103662309cf699b69c</sys_id>
+        <sys_created_on>2021-01-29 16:37:42</sys_created_on>
+        <sys_id>e09808892f0660103662309cf699b66e</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=977aea942f8220103662309cf699b6b4^sys_idNOT IN248e83902f4620103662309cf699b69c"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6c5,21b63e542fc220103662309cf699b6cc,28fa035c2f0620103662309cf699b615,58facf1c2f0620103662309cf699b6f1,60fa035c2f0620103662309cf699b61e,68fa035c2f0620103662309cf699b618,77b57e142fc220103662309cf699b652"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=977aea942f8220103662309cf699b6b4^sys_idNOT IN2c9808892f0660103662309cf699b66d"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6c5,21b63e542fc220103662309cf699b6cc,28fa035c2f0620103662309cf699b615,2b6800892f0660103662309cf699b6eb,58facf1c2f0620103662309cf699b6f1,60fa035c2f0620103662309cf699b61e,636800892f0660103662309cf699b6f7,68fa035c2f0620103662309cf699b618,6f6840892f0660103662309cf699b602,77b57e142fc220103662309cf699b652,e36800892f0660103662309cf699b6fa,e76800892f0660103662309cf699b6fd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b63e542fc220103662309cf699b6c4</block>
         <comment/>
@@ -117,14 +117,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:06</sys_created_on>
         <sys_id>21b63e542fc220103662309cf699b6c5</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <ui_id>6a51e5f1-8046-4327-aedd-389336440c98</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -158,14 +158,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:06</sys_created_on>
         <sys_id>21b63e542fc220103662309cf699b6cc</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>947103c5-885e-4fc2-819f-8e95bd4595c5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21b63e542fc220103662309cf699b6cc"/>
@@ -223,14 +223,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>28fa035c2f0620103662309cf699b615</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>9dce25e4-edd0-43de-8100-f608c8869be1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=28fa035c2f0620103662309cf699b615"/>
@@ -274,6 +274,66 @@
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6ea</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>2b6800892f0660103662309cf699b6eb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>198e2981-a17d-44f4-9884-c02c91b591be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2b6800892f0660103662309cf699b6eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b6800892f0660103662309cf699b6eb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>2f6800892f0660103662309cf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b6800892f0660103662309cf699b6eb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e76800892f0660103662309cf699b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value>1970-01-01 00:00:02</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5cfacf1c2f0620103662309cf699b6f0</block>
         <comment/>
         <connected_to/>
@@ -292,14 +352,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:29</sys_created_on>
         <sys_id>58facf1c2f0620103662309cf699b6f1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:05</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <ui_id>c20578f1-2d5d-4c97-ab0d-7ac863e12faa</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -347,17 +407,82 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>60fa035c2f0620103662309cf699b61e</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>9d6eb1d0-859b-4917-ae81-f22a402ec564</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60fa035c2f0620103662309cf699b61e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>636800892f0660103662309cf699b6f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
+        <ui_id>05fb6cb2-7d80-4e86-bfa6-82f607d2950d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=636800892f0660103662309cf699b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>636800892f0660103662309cf699b6f7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>a76800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_questions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=636800892f0660103662309cf699b6f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>636800892f0660103662309cf699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>636800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>trivia_game={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>636800892f0660103662309cf699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>276800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a0fa035c2f0620103662309cf699b618</block>
         <comment/>
@@ -378,14 +503,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>68fa035c2f0620103662309cf699b618</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:05</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
         <ui_id>0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -407,6 +532,71 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <order>12</order>
+        <parent_ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>6f6840892f0660103662309cf699b602</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
+        <ui_id>5cc452ca-b2d7-48ee-8636-92b4f445a313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f6840892f0660103662309cf699b602"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f6840892f0660103662309cf699b602</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>e76840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_game_instance</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f6840892f0660103662309cf699b602"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6f6840892f0660103662309cf699b602</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>a36840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6f6840892f0660103662309cf699b602</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>676840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>trivia_game={{Updated_1.current}}^trivia_question={{a0f04703-2d24-413d-82d7-8dba8b1160aa.item}}^player={{9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Get trivia questions">0362f2502fc220103662309cf699b6ae</action_type>
         <action_type_parent/>
         <comment/>
@@ -419,14 +609,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:18:52</sys_created_on>
         <sys_id>77b57e142fc220103662309cf699b652</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>99c7c40f-1670-4de3-8cf1-1919b50a2480</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77b57e142fc220103662309cf699b652"/>
@@ -493,6 +683,98 @@
         <table>var__m_sys_hub_action_input_0362f2502fc220103662309cf699b6ae</table>
         <value>{{Updated_1.current.question_type}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e36800892f0660103662309cf699b6fa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e36800892f0660103662309cf699b6fa"/>
+    <sys_element_mapping action="delete_multiple" query="id=e36800892f0660103662309cf699b6fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e36800892f0660103662309cf699b6fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>eb6800892f0660103662309cf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">236800892f0660103662309cf699b6fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e76800892f0660103662309cf699b6fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e76800892f0660103662309cf699b6fd"/>
+    <sys_element_mapping action="delete_multiple" query="id=e76800892f0660103662309cf699b6fd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e76800892f0660103662309cf699b6fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>6b6800892f0660103662309cf699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players}}</value>
+    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN97aa2e182f8220103662309cf699b6b4"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -504,14 +786,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 20:30:30</sys_created_on>
         <sys_id>97aa2e182f8220103662309cf699b6b4</sys_id>
-        <sys_mod_count>31</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -626,14 +908,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 20:30:30</sys_created_on>
         <sys_id>5faa26d42f8220103662309cf699b62f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -649,7 +931,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe37e439077462010c315175b651bf37a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3a888489030660101e8db90d28cb8bd8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -707,14 +989,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 20:30:30</sys_created_on>
         <sys_id>dbaa2e182f8220103662309cf699b6a6</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -788,14 +1070,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 20:30:30</sys_created_on>
         <sys_id>dbaa2e182f8220103662309cf699b6ac</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -807,7 +1089,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6cc,28fa035c2f0620103662309cf699b615,60fa035c2f0620103662309cf699b61e,77b57e142fc220103662309cf699b652"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6cc,28fa035c2f0620103662309cf699b615,60fa035c2f0620103662309cf699b61e,636800892f0660103662309cf699b6f7,6f6840892f0660103662309cf699b602,77b57e142fc220103662309cf699b652"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -823,14 +1105,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:06</sys_created_on>
         <sys_id>21b63e542fc220103662309cf699b6cc</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>947103c5-885e-4fc2-819f-8e95bd4595c5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=21b63e542fc220103662309cf699b6cc"/>
@@ -902,14 +1184,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>28fa035c2f0620103662309cf699b615</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>9dce25e4-edd0-43de-8100-f608c8869be1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=28fa035c2f0620103662309cf699b615"/>
@@ -966,14 +1248,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>60fa035c2f0620103662309cf699b61e</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>9d6eb1d0-859b-4917-ae81-f22a402ec564</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=60fa035c2f0620103662309cf699b61e"/>
@@ -994,6 +1276,136 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>636800892f0660103662309cf699b6f7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
+        <ui_id>05fb6cb2-7d80-4e86-bfa6-82f607d2950d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=636800892f0660103662309cf699b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>636800892f0660103662309cf699b6f7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>a76800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_questions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=636800892f0660103662309cf699b6f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>636800892f0660103662309cf699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>636800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>trivia_game={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>636800892f0660103662309cf699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>276800892f0660103662309cf699b6f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <order>12</order>
+        <parent_ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>6f6840892f0660103662309cf699b602</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
+        <ui_id>5cc452ca-b2d7-48ee-8636-92b4f445a313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f6840892f0660103662309cf699b602"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6f6840892f0660103662309cf699b602</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>e76840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_game_instance</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6f6840892f0660103662309cf699b602"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6f6840892f0660103662309cf699b602</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>a36840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6f6840892f0660103662309cf699b602</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:06</sys_created_on>
+        <sys_id>676840892f0660103662309cf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>trivia_game={{Updated_1.current}}^trivia_question={{a0f04703-2d24-413d-82d7-8dba8b1160aa.item}}^player={{9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Get trivia questions">0362f2502fc220103662309cf699b6ae</action_type>
         <action_type_parent/>
         <comment/>
@@ -1006,14 +1418,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:18:52</sys_created_on>
         <sys_id>77b57e142fc220103662309cf699b652</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-28 16:57:13</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:38:52</sys_updated_on>
         <ui_id>99c7c40f-1670-4de3-8cf1-1919b50a2480</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=77b57e142fc220103662309cf699b652"/>
@@ -1080,7 +1492,7 @@
         <table>var__m_sys_hub_action_input_0362f2502fc220103662309cf699b6ae</table>
         <value>{{Updated_1.current.question_type}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6c5,58facf1c2f0620103662309cf699b6f1,68fa035c2f0620103662309cf699b618"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=977aea942f8220103662309cf699b6b4^sys_idNOT IN21b63e542fc220103662309cf699b6c5,2b6800892f0660103662309cf699b6eb,58facf1c2f0620103662309cf699b6f1,68fa035c2f0620103662309cf699b618,e36800892f0660103662309cf699b6fa,e76800892f0660103662309cf699b6fd"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b63e542fc220103662309cf699b6c4</block>
         <comment/>
@@ -1101,14 +1513,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:06</sys_created_on>
         <sys_id>21b63e542fc220103662309cf699b6c5</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:04</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <ui_id>6a51e5f1-8046-4327-aedd-389336440c98</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1128,6 +1540,66 @@
         <value>{{99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6ea</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>2b6800892f0660103662309cf699b6eb</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>198e2981-a17d-44f4-9884-c02c91b591be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2b6800892f0660103662309cf699b6eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b6800892f0660103662309cf699b6eb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>2f6800892f0660103662309cf699b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>2b6800892f0660103662309cf699b6eb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e76800892f0660103662309cf699b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <value>1970-01-01 00:00:02</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5cfacf1c2f0620103662309cf699b6f0</block>
         <comment/>
         <connected_to/>
@@ -1146,14 +1618,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:29</sys_created_on>
         <sys_id>58facf1c2f0620103662309cf699b6f1</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:05</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:43</sys_updated_on>
         <ui_id>c20578f1-2d5d-4c97-ab0d-7ac863e12faa</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1207,14 +1679,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:30</sys_created_on>
         <sys_id>68fa035c2f0620103662309cf699b618</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:05</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
         <ui_id>0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1232,6 +1704,98 @@
         <sys_updated_on>2021-01-27 22:51:30</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
         <value>{{9dce25e4-edd0-43de-8100-f608c8869be1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e36800892f0660103662309cf699b6fa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e36800892f0660103662309cf699b6fa"/>
+    <sys_element_mapping action="delete_multiple" query="id=e36800892f0660103662309cf699b6fa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e36800892f0660103662309cf699b6fa</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>eb6800892f0660103662309cf699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">236800892f0660103662309cf699b6fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">977aea942f8220103662309cf699b6b4</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>e76800892f0660103662309cf699b6fd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:44</sys_updated_on>
+        <ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e76800892f0660103662309cf699b6fd"/>
+    <sys_element_mapping action="delete_multiple" query="id=e76800892f0660103662309cf699b6fd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e76800892f0660103662309cf699b6fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:05</sys_created_on>
+        <sys_id>6b6800892f0660103662309cf699b6ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:05</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_977aea942f8220103662309cf699b6b4^sys_idNOT IN17aa2e182f8220103662309cf699b6a5,17aa2e182f8220103662309cf699b6ab,dfaa2e182f8220103662309cf699b6b0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1308,13 +1872,13 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"08d632942fc220103662309cf699b686","name":"plan"}}</plan>
         <plan_id>977aea942f8220103662309cf699b6b4</plan_id>
-        <snapshot>3263cfe02f0220103662309cf699b663</snapshot>
+        <snapshot>6fc8cc892f0660103662309cf699b640</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>08d632942fc220103662309cf699b686</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1322,8 +1886,8 @@
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:03</sys_updated_on>
-        <trigger display_value="">688e83902f4620103662309cf699b69b</trigger>
+        <sys_updated_on>2021-01-29 16:37:42</sys_updated_on>
+        <trigger display_value="">209808892f0660103662309cf699b66d</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1336,7 +1900,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>create_trivia_question_set</internal_name>
-        <label_cache>[{"name":"3d0e6934-f07f-4cb1-89e8-2fe33bb7e91b.item","label":"5➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.question_count","label":"Trigger➛Trivia Game Record➛Question count","reference":"","reference_display":"Question count","type":"integer","base_type":"integer","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_count"},{"name":"Updated_1.current.difficulty","label":"Trigger➛Trivia Game Record➛Difficulty","reference":"","reference_display":"Difficulty","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"difficulty"},{"name":"Updated_1.current.category","label":"Trigger➛Trivia Game Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"category"},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD8bd9f6587dc22010c162fe12f6732ddd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"16515405-9de1-40ff-8f2b-b348f3eef4c0.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD9762f250dec22010ca70ae5ecba0a9fd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results","label":"1➛Trivia questions➛results","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item","label":"2➛results_object","reference_display":"results_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.record","label":"3➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.table_name","label":"3➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Trivia Game Record","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"reference","base_type":"reference","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.question","label":"2➛results_object➛question","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.type","label":"2➛results_object➛type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.correct_answer","label":"2➛results_object➛correct_answer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.incorrect_answers","label":"2➛results_object➛incorrect_answers","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{}},{"name":"Updated_1.current.question_type","label":"Trigger➛Trivia Game Record➛Question type","reference":"","reference_display":"Question type","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_type"},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0.item","label":"6➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5cc452ca-b2d7-48ee-8636-92b4f445a313.table_name","label":"12➛Trivia Game Instance Table","reference":"x_275551_trivia_ga_trivia_game_instance","reference_display":"Trivia Game Instance","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5cc452ca-b2d7-48ee-8636-92b4f445a313.record","label":"12➛Trivia Game Instance Record","reference":"x_275551_trivia_ga_trivia_game_instance","reference_display":"Trivia Game Instance","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item","label":"11➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players","label":"10➛Trivia Questions Record➛Trivia game➛Players","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"players"},{"name":"a0f04703-2d24-413d-82d7-8dba8b1160aa.item","label":"10➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.sys_id","label":"Trigger➛Trivia Game Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"sys_id"},{"name":"Updated_1.table_name","label":"Trigger➛Trivia Game Table","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Count","label":"9➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Table","label":"9➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records","label":"9➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"198e2981-a17d-44f4-9884-c02c91b591be.scheduled_end_date_time","label":"8➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"198e2981-a17d-44f4-9884-c02c91b591be.total_duration","label":"8➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d0e6934-f07f-4cb1-89e8-2fe33bb7e91b.item","label":"5➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.question_count","label":"Trigger➛Trivia Game Record➛Question count","reference":"","reference_display":"Question count","type":"integer","base_type":"integer","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_count"},{"name":"Updated_1.current.difficulty","label":"Trigger➛Trivia Game Record➛Difficulty","reference":"","reference_display":"Difficulty","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"difficulty"},{"name":"Updated_1.current.category","label":"Trigger➛Trivia Game Record➛Category","reference":"","reference_display":"Category","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"category"},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD8bd9f6587dc22010c162fe12f6732ddd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"16515405-9de1-40ff-8f2b-b348f3eef4c0.variable","label":"1➛Trivia questions","reference_display":"Trivia questions","type":"object","base_type":"object","attributes":{"sourceId":"04aa02d3-a75d-4b40-83fc-a5653529b951","uiTypeLabel":"Object","co_type_name":"FD9762f250dec22010ca70ae5ecba0a9fd","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"2f28a7a8-fe91-4a09-bc17-be530e7c5028","uiType":"object","uiUniqueId":"22e3b428-6a20-4f96-b1a0-dd3d2b31e731"}},{"name":"99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results","label":"1➛Trivia questions➛results","reference":"","reference_display":"","type":"array.object","base_type":"array.object","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item","label":"2➛results_object","reference_display":"results_object","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.record","label":"3➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"947103c5-885e-4fc2-819f-8e95bd4595c5.table_name","label":"3➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger➛Trivia Game Record","reference":"x_275551_trivia_ga_trivia_game","reference_display":"Trivia Game","type":"reference","base_type":"reference","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.question","label":"2➛results_object➛question","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.type","label":"2➛results_object➛type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.correct_answer","label":"2➛results_object➛correct_answer","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"6a51e5f1-8046-4327-aedd-389336440c98.item.incorrect_answers","label":"2➛results_object➛incorrect_answers","reference":"","reference_display":"","type":"array.string","base_type":"array.string","column_name":"","attributes":{}},{"name":"Updated_1.current.question_type","label":"Trigger➛Trivia Game Record➛Question type","reference":"","reference_display":"Question type","type":"choice","base_type":"choice","parent_table_name":"x_275551_trivia_ga_trivia_game","column_name":"question_type"},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"e8fde893-b913-4ba4-8d1a-1b73c4e1ae61.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d8fade8-68c6-4ffe-9b4b-69e1e352a9ed.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"b2b2c02c-af6b-4a66-a901-8e77ced01299.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.total_duration","label":"4➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c20578f1-2d5d-4c97-ab0d-7ac863e12faa.scheduled_end_date_time","label":"4➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Records","label":"5➛Trivia Questions Records","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Table","label":"5➛Trivia Questions Table","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9dce25e4-edd0-43de-8100-f608c8869be1.Count","label":"5➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0.item","label":"6➛Trivia Questions Record","reference":"x_275551_trivia_ga_trivia_questions","reference_display":"Trivia Questions","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.record","label":"7➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"755ec8df-156f-4c21-8509-cd2c03bca2ed.table_name","label":"7➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Create trivia question set</name>
         <natlang/>
@@ -1352,7 +1916,7 @@
         <sys_created_on>2021-01-27 21:23:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>07c6fe542fc220103662309cf699b62d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1360,12 +1924,12 @@
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=07c6fe542fc220103662309cf699b62d"/>
     <sys_variable_value action="delete_multiple" query="document_key=07c6fe542fc220103662309cf699b62d"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN2bc632942fc220103662309cf699b61e,3c0bc35c2f0620103662309cf699b6dc,6bc632942fc220103662309cf699b60d,7c0bc35c2f0620103662309cf699b6d5,b7c632942fc220103662309cf699b625,bc0bc35c2f0620103662309cf699b6e2,f80bc35c2f0620103662309cf699b6cf"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN2bc632942fc220103662309cf699b61e,3c0bc35c2f0620103662309cf699b6dc,668884892f0660103662309cf699b6a1,6bc632942fc220103662309cf699b60d,7c0bc35c2f0620103662309cf699b6d5,9e8884892f0660103662309cf699b671,a68884892f0660103662309cf699b68f,b7c632942fc220103662309cf699b625,bc0bc35c2f0620103662309cf699b6e2,d28884892f0660103662309cf699b678,e28884892f0660103662309cf699b6a4,f80bc35c2f0620103662309cf699b6cf"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1381,14 +1945,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:30</sys_created_on>
         <sys_id>2bc632942fc220103662309cf699b61e</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>99c7c40f-1670-4de3-8cf1-1919b50a2480</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bc632942fc220103662309cf699b61e"/>
@@ -1474,14 +2038,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:48</sys_created_on>
         <sys_id>3c0bc35c2f0620103662309cf699b6dc</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>c20578f1-2d5d-4c97-ab0d-7ac863e12faa</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1516,6 +2080,52 @@
         <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=668884892f0660103662309cf699b6a1"/>
+    <sys_element_mapping action="delete_multiple" query="id=668884892f0660103662309cf699b6a1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>668884892f0660103662309cf699b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>e68884892f0660103662309cf699b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b63e542fc220103662309cf699b6c4</block>
         <comment/>
         <connected_to/>
@@ -1535,14 +2145,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:30</sys_created_on>
         <sys_id>6bc632942fc220103662309cf699b60d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>6a51e5f1-8046-4327-aedd-389336440c98</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1575,17 +2185,142 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:47</sys_created_on>
         <sys_id>7c0bc35c2f0620103662309cf699b6d5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
         <ui_id>9d6eb1d0-859b-4917-ae81-f22a402ec564</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c0bc35c2f0620103662309cf699b6d5"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>9e8884892f0660103662309cf699b671</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>05fb6cb2-7d80-4e86-bfa6-82f607d2950d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e8884892f0660103662309cf699b671"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9e8884892f0660103662309cf699b671</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>1a8884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_questions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e8884892f0660103662309cf699b671"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9e8884892f0660103662309cf699b671</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d28884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>trivia_game={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9e8884892f0660103662309cf699b671</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>968884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6ea</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>a68884892f0660103662309cf699b68f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>198e2981-a17d-44f4-9884-c02c91b591be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a68884892f0660103662309cf699b68f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a68884892f0660103662309cf699b68f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>2a8884892f0660103662309cf699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <value>1970-01-01 00:00:02</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a68884892f0660103662309cf699b68f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1601,14 +2336,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:31</sys_created_on>
         <sys_id>b7c632942fc220103662309cf699b625</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>947103c5-885e-4fc2-819f-8e95bd4595c5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7c632942fc220103662309cf699b625"/>
@@ -1671,14 +2406,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:48</sys_created_on>
         <sys_id>bc0bc35c2f0620103662309cf699b6e2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
         <ui_id>0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1700,6 +2435,117 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <order>12</order>
+        <parent_ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d28884892f0660103662309cf699b678</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>5cc452ca-b2d7-48ee-8636-92b4f445a313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d28884892f0660103662309cf699b678"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d28884892f0660103662309cf699b678</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d68884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_game_instance</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d28884892f0660103662309cf699b678"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d28884892f0660103662309cf699b678</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>928884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d28884892f0660103662309cf699b678</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>568884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>trivia_game={{Updated_1.current}}^trivia_question={{a0f04703-2d24-413d-82d7-8dba8b1160aa.item}}^player={{9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">236800892f0660103662309cf699b6fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>e28884892f0660103662309cf699b6a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e28884892f0660103662309cf699b6a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=e28884892f0660103662309cf699b6a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e28884892f0660103662309cf699b6a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
@@ -1712,14 +2558,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:47</sys_created_on>
         <sys_id>f80bc35c2f0620103662309cf699b6cf</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>9dce25e4-edd0-43de-8100-f608c8869be1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f80bc35c2f0620103662309cf699b6cf"/>
@@ -1773,14 +2619,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:31</sys_created_on>
         <sys_id>bfc632942fc220103662309cf699b626</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:03</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:42</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1837,7 +2683,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDe37e439077462010c315175b651bf37a,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3a888489030660101e8db90d28cb8bd8,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1895,14 +2741,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:29</sys_created_on>
         <sys_id>17c6fe542fc220103662309cf699b6aa</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:06:59</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1976,14 +2822,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:29</sys_created_on>
         <sys_id>8fc6fe542fc220103662309cf699b64a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:06:59</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2057,14 +2903,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:29</sys_created_on>
         <sys_id>97c6fe542fc220103662309cf699b6c1</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:06:59</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2076,7 +2922,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN2bc632942fc220103662309cf699b61e,7c0bc35c2f0620103662309cf699b6d5,b7c632942fc220103662309cf699b625,f80bc35c2f0620103662309cf699b6cf"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN2bc632942fc220103662309cf699b61e,7c0bc35c2f0620103662309cf699b6d5,9e8884892f0660103662309cf699b671,b7c632942fc220103662309cf699b625,d28884892f0660103662309cf699b678,f80bc35c2f0620103662309cf699b6cf"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2092,14 +2938,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:30</sys_created_on>
         <sys_id>2bc632942fc220103662309cf699b61e</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>99c7c40f-1670-4de3-8cf1-1919b50a2480</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2bc632942fc220103662309cf699b61e"/>
@@ -2180,14 +3026,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:47</sys_created_on>
         <sys_id>7c0bc35c2f0620103662309cf699b6d5</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
         <ui_id>9d6eb1d0-859b-4917-ae81-f22a402ec564</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7c0bc35c2f0620103662309cf699b6d5"/>
@@ -2208,6 +3054,71 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <order>9</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>9e8884892f0660103662309cf699b671</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>05fb6cb2-7d80-4e86-bfa6-82f607d2950d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9e8884892f0660103662309cf699b671"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9e8884892f0660103662309cf699b671</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>1a8884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_questions</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9e8884892f0660103662309cf699b671"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9e8884892f0660103662309cf699b671</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d28884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>trivia_game={{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>9e8884892f0660103662309cf699b671</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>968884892f0660103662309cf699b673</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
@@ -2220,14 +3131,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:31</sys_created_on>
         <sys_id>b7c632942fc220103662309cf699b625</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>947103c5-885e-4fc2-819f-8e95bd4595c5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b7c632942fc220103662309cf699b625"/>
@@ -2287,6 +3198,71 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <order>12</order>
+        <parent_ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d28884892f0660103662309cf699b678</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>5cc452ca-b2d7-48ee-8636-92b4f445a313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d28884892f0660103662309cf699b678"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d28884892f0660103662309cf699b678</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>d68884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <value>x_275551_trivia_ga_trivia_game_instance</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d28884892f0660103662309cf699b678"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d28884892f0660103662309cf699b678</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>928884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>d28884892f0660103662309cf699b678</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:33</sys_created_on>
+        <sys_id>568884892f0660103662309cf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>trivia_game={{Updated_1.current}}^trivia_question={{a0f04703-2d24-413d-82d7-8dba8b1160aa.item}}^player={{9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6.item}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
@@ -2299,14 +3275,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:47</sys_created_on>
         <sys_id>f80bc35c2f0620103662309cf699b6cf</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>9dce25e4-edd0-43de-8100-f608c8869be1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f80bc35c2f0620103662309cf699b6cf"/>
@@ -2349,7 +3325,7 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN3c0bc35c2f0620103662309cf699b6dc,6bc632942fc220103662309cf699b60d,bc0bc35c2f0620103662309cf699b6e2"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=07c6fe542fc220103662309cf699b62d^sys_idNOT IN3c0bc35c2f0620103662309cf699b6dc,668884892f0660103662309cf699b6a1,6bc632942fc220103662309cf699b60d,a68884892f0660103662309cf699b68f,bc0bc35c2f0620103662309cf699b6e2,e28884892f0660103662309cf699b6a4"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">5cfacf1c2f0620103662309cf699b6f0</block>
         <comment/>
@@ -2369,14 +3345,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:48</sys_created_on>
         <sys_id>3c0bc35c2f0620103662309cf699b6dc</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>c20578f1-2d5d-4c97-ab0d-7ac863e12faa</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2411,6 +3387,52 @@
         <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
     </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6f9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=668884892f0660103662309cf699b6a1"/>
+    <sys_element_mapping action="delete_multiple" query="id=668884892f0660103662309cf699b6a1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>668884892f0660103662309cf699b6a1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>e68884892f0660103662309cf699b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{05fb6cb2-7d80-4e86-bfa6-82f607d2950d.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a1b63e542fc220103662309cf699b6c4</block>
         <comment/>
         <connected_to/>
@@ -2430,14 +3452,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 21:23:30</sys_created_on>
         <sys_id>6bc632942fc220103662309cf699b60d</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:35</sys_updated_on>
         <ui_id>6a51e5f1-8046-4327-aedd-389336440c98</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2456,6 +3478,66 @@
         <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
         <value>{{99c7c40f-1670-4de3-8cf1-1919b50a2480.variable.results}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">2f6800892f0660103662309cf699b6ea</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>a68884892f0660103662309cf699b68f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>198e2981-a17d-44f4-9884-c02c91b591be</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a68884892f0660103662309cf699b68f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a68884892f0660103662309cf699b68f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>2a8884892f0660103662309cf699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <value>1970-01-01 00:00:02</value>
+        <variable display_value="">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a68884892f0660103662309cf699b68f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <value/>
+        <variable display_value="">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">a0fa035c2f0620103662309cf699b618</block>
         <comment/>
@@ -2476,14 +3558,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 22:51:48</sys_created_on>
         <sys_id>bc0bc35c2f0620103662309cf699b6e2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 23:07:00</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
         <ui_id>0aa751c9-0790-4ea6-8a4f-8e762f9a7cd0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2501,6 +3583,52 @@
         <sys_updated_on>2021-01-27 22:51:48</sys_updated_on>
         <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
         <value>{{9dce25e4-edd0-43de-8100-f608c8869be1.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">236800892f0660103662309cf699b6fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create trivia question set">07c6fe542fc220103662309cf699b62d</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>11</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a0f04703-2d24-413d-82d7-8dba8b1160aa</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>e28884892f0660103662309cf699b6a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:36</sys_updated_on>
+        <ui_id>9bc1fa1e-16e4-4ef5-9591-77a7a00ad2e6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e28884892f0660103662309cf699b6a4"/>
+    <sys_element_mapping action="delete_multiple" query="id=e28884892f0660103662309cf699b6a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>e28884892f0660103662309cf699b6a4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-29 16:37:34</sys_created_on>
+        <sys_id>668884892f0660103662309cf699b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-29 16:37:34</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{a0f04703-2d24-413d-82d7-8dba8b1160aa.item.trivia_game.players}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_07c6fe542fc220103662309cf699b62d^sys_idNOT IN57c6fe542fc220103662309cf699b6bd,d3c6fe542fc220103662309cf699b6a6,dfc632942fc220103662309cf699b605"/>
     <sys_documentation action="INSERT_OR_UPDATE">

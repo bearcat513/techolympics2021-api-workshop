@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_275551_trivia_ga.Trivia_Game_Utils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Trivia_Game_Utils</name>
+        <script><![CDATA[var Trivia_Game_Utils = Class.create();
+Trivia_Game_Utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getToken: function(){
+		var response = '';     // RAW API response
+		var responseBody = ''; // Body of the response from API
+		var httpStatus = '';   // 200 / 401 / etc...
+		var resourceTypeNames = []; //Pretty Name passed to catalog item var
+		//var token = this.getToken(); //Token
+		var parser = '';       // JSON Parser
+		var parsedData = '';   // Response from API
+		var client ='';        // RestMessage
+		//var json = new JSON(); // Parser
+		//var question = gs.getProperty('RBACRestoreAccessQuestion');
+		var array = [];
+gs.log('Trivia game response script include called!');
+
+		try {
+			client = new sn_ws.RESTMessageV2();
+			client.setHttpMethod('GET');
+			client.setEndpoint('https://opentdb.com/api_token.php?command=request');  
+			client.setRequestHeader('Content-Type', 'application/json');
+
+
+			response = client.execute();
+			gs.log('Trivia game response = ' + response);
+
+			responseBody = response.getBody(); 
+			httpStatus = response.getStatusCode();
+			parser = new JSONParser();
+			parsedData = parser.parse(responseBody); 
+
+			//gs.log('MMMSpoon ' + responseBody + ' ' + JSON.stringify(parsedData.sort(this.compare)));
+			parsedData = JSON.stringify(parsedData);
+			return parsedData;
+		}
+		catch (ex) {
+			gs.info('Exception: (' + ex + '), ' + ex.getMessage()); 
+		}
+	},
+
+    type: 'Trivia_Game_Utils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 02:35:33</sys_created_on>
+        <sys_id>a984bec02fca20103662309cf699b640</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Trivia_Game_Utils</sys_name>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name>sys_script_include_a984bec02fca20103662309cf699b640</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 03:05:14</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</application>
+        <file_path/>
+        <instance_id>cc0d72bfdb93db440e785d00cf961957</instance_id>
+        <instance_name>dev66343</instance_name>
+        <name>sys_script_include_a984bec02fca20103662309cf699b640</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_275551_trivia_ga.Trivia_Game_Utils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Trivia_Game_Utils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Trivia_Game_Utils = Class.create();
+Trivia_Game_Utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getToken: function(){
+		var response = '';     // RAW API response
+		var responseBody = ''; // Body of the response from API
+		var httpStatus = '';   // 200 / 401 / etc...
+		var resourceTypeNames = []; //Pretty Name passed to catalog item var
+		//var token = this.getToken(); //Token
+		var parser = '';       // JSON Parser
+		var parsedData = '';   // Response from API
+		var client ='';        // RestMessage
+		//var json = new JSON(); // Parser
+		//var question = gs.getProperty('RBACRestoreAccessQuestion');
+		var array = [];
+gs.log('Trivia game response script include called!');
+
+		try {
+			client = new sn_ws.RESTMessageV2();
+			client.setHttpMethod('GET');
+			client.setEndpoint('https://opentdb.com/api_token.php?command=request');  
+			client.setRequestHeader('Content-Type', 'application/json');
+
+
+			response = client.execute();
+			gs.log('Trivia game response = ' + response);
+
+			responseBody = response.getBody(); 
+			httpStatus = response.getStatusCode();
+			parser = new JSONParser();
+			parsedData = parser.parse(responseBody); 
+
+			//gs.log('MMMSpoon ' + responseBody + ' ' + JSON.stringify(parsedData.sort(this.compare)));
+			parsedData = JSON.stringify(parsedData);
+			return parsedData;
+		}
+		catch (ex) {
+			gs.info('Exception: (' + ex + '), ' + ex.getMessage()); 
+		}
+	},
+
+    type: 'Trivia_Game_Utils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-27 02:35:33&lt;/sys_created_on&gt;&lt;sys_id&gt;a984bec02fca20103662309cf699b640&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Trivia_Game_Utils&lt;/sys_name&gt;&lt;sys_package display_value="Trivia Game" source="x_275551_trivia_ga"&gt;1c43f2002fca20103662309cf699b6ef&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Trivia Game"&gt;1c43f2002fca20103662309cf699b6ef&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a984bec02fca20103662309cf699b640&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-27 03:05:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1689038575</payload_hash>
+        <record_name>Trivia_Game_Utils</record_name>
+        <reverted_from/>
+        <source>d043f2002fca20103662309cf699b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 03:05:14</sys_created_on>
+        <sys_id>ab6b7e882fca20103662309cf699b63e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17741cd5e950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 03:05:14</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>636b7e88e0ca2010a399223ec09fda3e</update_guid>
+        <update_guid_history>636b7e88e0ca2010a399223ec09fda3e:-1689038575,b5cab2883fca2010840ad1fade37aaf0:-439598724,d48aba4819ca20101ebcdb55c807fa1e:1465058000,ba19ba8462ca2010a18b887817dacdd5:1485939056,0bf43ec053ca20109c95fa3b042de233:-899228504,38a4be806dca2010dfbfdc00ec482481:1340974184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:45:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7f6774999b9244ce9e3089723e557464</sys_id>
+        <sys_metadata>a984bec02fca20103662309cf699b640</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trivia_Game_Utils</sys_name>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_scope_delete display_value="">673284b886f94120ab12ad94269d0400</sys_scope_delete>
+        <sys_update_name>sys_script_include_a984bec02fca20103662309cf699b640</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a984bec02fca20103662309cf699b640">ab6b7e882fca20103662309cf699b63e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 21:45:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

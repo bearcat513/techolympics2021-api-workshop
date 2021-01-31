@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="choice" table="x_275551_trivia_ga_trivia_question_choices">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="trivia_question" table="x_275551_trivia_ga_trivia_game_instance">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Choice</column_label>
+        <column_label>Trivia question</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,25 +22,25 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>choice</element>
+        <element>trivia_question</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1000</max_length>
-        <name>x_275551_trivia_ga_trivia_question_choices</name>
+        <max_length>32</max_length>
+        <name>x_275551_trivia_ga_trivia_game_instance</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_275551_trivia_ga_trivia_questions">x_275551_trivia_ga_trivia_questions</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-01-27 21:54:32</sys_created_on>
-        <sys_id>438d325c2fc220103662309cf699b67f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Choice</sys_name>
+        <sys_created_on>2021-01-29 16:27:05</sys_created_on>
+        <sys_id>390684c52f0660103662309cf699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trivia question</sys_name>
         <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
-        <sys_update_name>sys_dictionary_x_275551_trivia_ga_trivia_question_choices_choice</sys_update_name>
+        <sys_update_name>sys_dictionary_x_275551_trivia_ga_trivia_game_instance_trivia_question</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-29 16:49:26</sys_updated_on>
+        <sys_updated_on>2021-01-29 16:27:05</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

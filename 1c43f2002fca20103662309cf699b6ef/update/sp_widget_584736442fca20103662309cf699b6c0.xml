@@ -4,23 +4,84 @@
         <client_script><![CDATA[api.controller=function($scope, spUtil, $rootScope,$timeout) {
 	/* widget controller */
 	var c = this;
-	var parsedData = '';
-	c.loadOptions = function() {
-		gr = new GlideAjax('Trivia_Game_Utils');
-		gr.addParam('sysparm_name', 'getToken');
-		gr.getXML(getRemoveOptions);
+/*c.data.items = '';
+c.loadGame = function() {
+
+c.list = document.getElementsByTagName("SN-RECORD-PICKER")[0];
+alert("Game Time! " + c.list);	
+	c.gr = new GlideAjax('Trivia_Game_Utils');
+		c.gr.addParam('sysparm_name', 'loadGame');
+		c.gr.addParam('sysparm_category', document.getElementById('question_category'));
+	c.gr.addParam('sysparm_category', document.getElementById('question_difficulty'));
+	c.gr.addParam('sysparm_category', document.getElementById('question_count'));
+		c.gr.getXML(getRemoveOptions);
+
 		
+
 		function getRemoveOptions(response) {
-			//alert('getRestore');
 			var answer = response.responseXML.documentElement.getAttribute("answer");
-			parsedData = JSON.parse(answer);
-			alert(answer);
-			c.data.parsedData = parsedData;
+			c.data.items = answer;
 		}
-	};
+	
+} */
+
+
+
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.main {
+  margin: auto;
+  display: flex;
+	//align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;  
+  margin: auto;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+.card_content {
+  padding: 1rem;
+  //background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.btn-trivia {
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  width: 90%;
+  text-align: center;
+}</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -34,27 +95,69 @@
         <option_schema/>
         <public>false</public>
         <roles/>
-        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	
+	 var itemsList = '';
+	var itemsArray = [];
+	//data.items = [];
+	data.table = 'x_275551_trivia_ga_trivia_questions';
+	//var choiceArray = [];
+	var items = new GlideRecord(data.table);
+	items.addEncodedQuery('trivia_game=b0f0362d2f4260103662309cf699b60b^');
+	//items.setLimit(1);
+	items.query();
+	while (items.next()) {
+	//	itemsArray = [];
+		choices = items.getDisplayValue('choices');
+		//var newChoices = choices.replace(/,/g, '<br>');
+		var choiceArray = choices.split(",");
+		var item = {
+			"sys_id": items.sys_id+'',
+			"title": items.question+'',
+			"short_description": choiceArray
+		}
+		itemsArray.push(item);
+	} 
+
+	data.items = itemsArray; 
+
+})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-01-27 02:46:59</sys_created_on>
         <sys_id>584736442fca20103662309cf699b6c0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>193</sys_mod_count>
         <sys_name>Trivia Game</sys_name>
         <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
         <sys_update_name>sp_widget_584736442fca20103662309cf699b6c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-01-27 03:07:08</sys_updated_on>
-        <template><![CDATA[<div>
-<button ng-click='c.loadOptions()'>
-Load Questions
-</button>
-  <div>
-    {{data.parsedData}}
-  </div>
-</div>]]></template>
+        <sys_updated_on>2021-01-31 18:20:32</sys_updated_on>
+        <template><![CDATA[<!--<sn-record-picker id="question_category" field="question_category" table="'sys_choice'" default-query="'=df9ea61c2f8220103662309cf699b6fd^name=x_275551_trivia_ga_trivia_game^element=category'" display-field="'label'" value-field="'value'" search-fields="'label'"></sn-record-picker>
+<sn-record-picker id="question_difficulty" field="question_difficulty" table="'sys_choice'" default-query="'=57ce26182f8220103662309cf699b6a8^name=x_275551_trivia_ga_trivia_game^element=difficulty'" display-field="'label'" value-field="'value'" search-fields="'label'"></sn-record-picker>
+<label for="question_count">Question Count:</label>
+<input type="number" id="question_count" name="question_count"><br><br>
+<input class="btn btn-primary" type="submit" value="Start Game" ng-click="c.loadGame()">-->
+
+
+<div class="main" ng-repeat="item in data.items">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_content">
+          <h3>{{::item.title}}</h3>
+          <p class="btn btn-primary btn-trivia" role="button" ng-repeat="choice in item.short_description">{{choice}}</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+]]></template>
     </sp_widget>
 </record_update>
