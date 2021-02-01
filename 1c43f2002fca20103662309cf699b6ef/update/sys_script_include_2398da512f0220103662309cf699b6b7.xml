@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_275551_trivia_ga.Trivia_Game_Utils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Trivia_Game_Utils</name>
+        <script><![CDATA[var Trivia_Game_Utils = Class.create();
+Trivia_Game_Utils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	loadGame: function() {
+		var category = this.getParameter('sysparm_category');
+		var difficulty = this.getParameter('sysparm_difficulty');
+		var count = this.getParameter('sysparm_question_count');
+
+		var trivia = new GlideRecord('');
+
+		trivia.initialize();
+		trivia.category = category;
+		trivia.difficulty = difficulty;
+		trivia.question_count = count;
+		var newGame = trivia.insert();
+
+		var itemsList = '';
+		var itemsArray = [];
+
+		var triviaQuestions = new GlideRecord('x_275551_trivia_ga_trivia_questions');
+		triviaQuestions.addQuery('trivia_game', newGame);
+		triviaQuestions.query();
+		while(triviaQuestions.next()){
+			choices = items.getDisplayValue('choices');
+			//var newChoices = choices.replace(/,/g, '<br>');
+			var choiceArray = choices.split(",");
+			var item = {
+				"sys_id": items.sys_id+'',
+				"title": items.question+'',
+				"short_description": choiceArray
+			};
+			itemsArray.push(item);
+		}
+		var questions = itemsArray;
+		return questions;
+
+	},
+
+	type: 'Trivia_Game_Utils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-30 21:45:55</sys_created_on>
+        <sys_id>2398da512f0220103662309cf699b6b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Trivia_Game_Utils</sys_name>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name>sys_script_include_2398da512f0220103662309cf699b6b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-30 23:49:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

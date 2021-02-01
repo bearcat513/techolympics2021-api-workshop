@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trivia Game" max_length="40" name="x_275551_trivia_ga_trivia_game" sizeclass="13" type="collection">
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Animals" value="27"/>
+                <element inactive_on_update="false" label="General knowledge" value="9"/>
+                <element inactive_on_update="false" label="Science" value="17"/>
+                <element inactive_on_update="false" label="Sports" value="21"/>
+            </choice>
+        </element>
+        <element choice="1" label="Difficulty" max_length="40" name="difficulty" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Easy" sequence="1" value="easy"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="medium"/>
+                <element inactive_on_update="false" label="Hard" sequence="3" value="hard"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Players" max_length="4000" name="players" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element default="10" label="Question count" max_length="40" name="question_count" type="integer"/>
+        <element choice="1" label="Question type" max_length="40" name="question_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Multiple choice" value="multiple"/>
+                <element inactive_on_update="false" label="T/F" value="boolean"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Canceled" sequence="4" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

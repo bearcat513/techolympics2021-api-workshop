@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Trivia Questions" max_length="40" name="x_275551_trivia_ga_trivia_questions" sizeclass="41" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="category" choice_table="x_275551_trivia_ga_trivia_game" label="Category" max_length="200" name="category" type="string">
+            <choice/>
+        </element>
+        <element label="Choices" max_length="2000" name="choices" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Correct answer" max_length="200" name="correct_answer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incorrect answers" max_length="1000" name="incorrect_answers" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Question" max_length="1000" name="question" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element label="Trivia game" max_length="32" name="trivia_game" reference="x_275551_trivia_ga_trivia_game" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="question_type" choice_table="x_275551_trivia_ga_trivia_game" label="Type" max_length="100" name="type" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="trivia_game"/>
+        </index>
+    </element>
+</database>

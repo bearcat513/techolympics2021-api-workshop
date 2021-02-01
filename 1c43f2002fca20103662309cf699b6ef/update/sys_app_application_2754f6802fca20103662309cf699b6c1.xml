@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>snc_internal</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 02:34:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2754f6802fca20103662309cf699b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Trivia Game</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name>sys_app_application_2754f6802fca20103662309cf699b6c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 02:34:22</sys_updated_on>
+        <title>Trivia Game</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

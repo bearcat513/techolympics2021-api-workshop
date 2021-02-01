@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_275551_trivia_ga.Trivia_Game_Regex_Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Trivia_Game_Regex_Utils().decodeHTML(htmlfix);</description>
+        <name>Trivia_Game_Regex_Utils</name>
+        <script><![CDATA[var Trivia_Game_Regex_Utils = Class.create();
+Trivia_Game_Regex_Utils.prototype = {
+    initialize: function() {
+    },
+	
+	decodeHTML: function(htmlFix) {
+		var a = htmlFix.replace(/<\/?[^>]+(>|$)/g, ""); //Remove tags
+		var b = a.replace(/&amp;/g, '&'); //Retain any ampersands that are just ampersands
+		return b.replace(/&#(\d+);/g, function(match, dec) {
+			return String.fromCharCode(dec); //Returns the special character from the decimal code representation and returns the entire decoded string.
+		});
+	},
+
+    type: 'Trivia_Game_Regex_Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-27 23:08:12</sys_created_on>
+        <sys_id>c1ae87902f4620103662309cf699b64f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Trivia_Game_Regex_Utils</sys_name>
+        <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+        <sys_update_name>sys_script_include_c1ae87902f4620103662309cf699b64f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-27 23:15:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

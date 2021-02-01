@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Trivia Question Choices" language="en" table="x_275551_trivia_ga_trivia_question_choices">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Trivia Question Choices</label>
+            <language>en</language>
+            <name>x_275551_trivia_ga_trivia_question_choices</name>
+            <plural>Trivia Question Choices</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-27 21:47:33</sys_created_on>
+            <sys_id>cc5c761c2fc220103662309cf699b66b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Trivia Question Choices</sys_name>
+            <sys_package display_value="Trivia Game" source="x_275551_trivia_ga">1c43f2002fca20103662309cf699b6ef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Trivia Game">1c43f2002fca20103662309cf699b6ef</sys_scope>
+            <sys_update_name>sys_documentation_x_275551_trivia_ga_trivia_question_choices__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-27 21:47:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
