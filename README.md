@@ -10,3 +10,8 @@ API used in demo: https://opentdb.com/api_config.php
 List of public API's: https://github.com/public-apis/public-apis
 
 Postman (API Testing): https://www.postman.com/api-platform/
+
+# Additional ServiceNow Training
+ServiceNow Developer Courses: https://developer.servicenow.com/dev.do#!/learn/courses/paris
+
+ServiceNow Now Learning: https://nowlearning.service-now.com/lxp
