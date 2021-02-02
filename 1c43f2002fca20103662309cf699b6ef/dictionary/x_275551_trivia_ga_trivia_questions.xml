@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trivia Questions" max_length="40" name="x_275551_trivia_ga_trivia_questions" sizeclass="41" type="collection">
+    <element label="Trivia Questions" max_length="40" name="x_275551_trivia_ga_trivia_questions" sizeclass="92" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="category" choice_table="x_275551_trivia_ga_trivia_game" label="Category" max_length="200" name="category" type="string">
             <choice/>
         </element>

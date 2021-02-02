@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Trivia Game" max_length="40" name="x_275551_trivia_ga_trivia_game" sizeclass="13" type="collection">
+    <element label="Trivia Game" max_length="40" name="x_275551_trivia_ga_trivia_game" sizeclass="18" type="collection">
         <element choice="1" label="Category" max_length="40" name="category" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Animals" value="27"/>
